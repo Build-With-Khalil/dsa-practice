@@ -6,7 +6,7 @@ void main() {
     print(maxProfit(prices));
   }
 }
-
+// ..
 int maxProfit(List<int> prices) {
   if (prices.isEmpty) return 0;
   int minPrice = prices[0];
