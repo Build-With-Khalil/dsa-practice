@@ -6,7 +6,7 @@ void main() {
     print(maxSubArray(nums));
   }
 }
-
+// 
 int maxSubArray(List<int> nums) {
   int maxSum = nums[0];
   int currentSum = nums[0];
